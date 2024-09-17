@@ -4,20 +4,20 @@ controllers:
 
 app_service_list:
     path: /
-    controller: App\Controller\ServiceController::list
+    controller: App\Controller\ServiceController::listAction
 
 admin_service_list:
     path: /admin
-    controller: App\Controller\AdminController::list
+    controller: App\Controller\AdminController::listAction
 
 admin_service_new:
     path: /admin/service/new
-    controller: App\Controller\AdminController::new
+    controller: App\Controller\AdminController::newAction
 
 admin_service_edit:
     path: /admin/service/{id}/edit
-    controller: App\Controller\AdminController::edit
+    controller: App\Controller\AdminController::editAction
 
 admin_service_delete:
     path: /admin/service/{id}/delete
-    controller: App\Controller\AdminController::delete
+    controller: App\Controller\AdminController::deleteAction

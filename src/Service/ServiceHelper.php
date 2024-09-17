@@ -2,41 +2,25 @@
 
 namespace App\Service;
 
-use App\Repository\ServiceRepository;
+use App\Entity\Service;
+use Symfony\Component\HttpFoundation\File\UploadedFile;
+use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
 
 class ServiceHelper
 {
-    private $serviceRepository;
+    private $params;
 
-    public function __construct(ServiceRepository $serviceRepository)
+    public function __construct(ParameterBagInterface $params)
     {
-        $this->serviceRepository = $serviceRepository;
+        $this->params = $params;
     }
 
-    public function getUniqueCategories(): array
+    public function handleLogo(UploadedFile $logoFile = null, Service $service): void
     {
-        $allCategories = [
-            'category.cloud_solutions' => 'Cloud Solutions',
-            'category.collaboration_tools' => 'Collaboration Tools',
-            'category.project_management' => 'Project Management Systems',
-            'category.databases' => 'Databases',
-            'category.version_control' => 'Version Control Systems',
-            'category.operating_systems' => 'Operating Systems',
-            'category.virtualization' => 'Virtualization and Containerization',
-            'category.security' => 'Security Systems',
-        ];
-
-        $services = $this->serviceRepository->findAll();
-
-        $uniqueCategoriesFromDb = array_unique(array_map(function($service) {
-            return $service->getCategory();
-        }, $services));
-
-        $categories = array_merge(
-            $uniqueCategoriesFromDb,
-            array_keys($allCategories)
-        );
-
-        return array_unique($categories);
+        if ($logoFile) {
+            $newFilename = uniqid() . '.' . $logoFile->guessExtension();
+            $logoFile->move($this->params->get('uploads_directory'), $newFilename);
+            $service->setLogo($newFilename);
+        }
     }
 }

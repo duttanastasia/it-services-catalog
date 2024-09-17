@@ -11,10 +11,10 @@ use Symfony\Component\Routing\Annotation\Route;
 class ServiceController extends AbstractController
 {
     #[Route('/services', name: 'app_service_list')]
-    public function list(ServiceRepository $serviceRepository, ServiceHelper $serviceHelper): Response
+    public function listAction(ServiceRepository $serviceRepository, ServiceHelper $serviceHelper): Response
     {
-        $services = $serviceRepository->findAll();
-        $categories = $serviceHelper->getUniqueCategories();
+        $services = $serviceRepository->findActiveServices();
+        $categories = $serviceRepository->getUniqueCategories();
 
         return $this->render('service/list.html.twig', [
             'services' => $services,

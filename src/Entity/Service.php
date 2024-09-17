@@ -25,6 +25,8 @@ class Service
     #[ORM\Column(type: 'string', length: 255)]
     private ?string $category = null;
 
+    #[ORM\Column(type: 'boolean')]
+    private bool $deleted = false;
 
     public function getId(): ?int
     {
@@ -72,6 +74,17 @@ class Service
     public function setCategory(string $category): self
     {
         $this->category = $category;
+        return $this;
+    }
+
+    public function isDeleted(): bool
+    {
+        return $this->deleted;
+    }
+
+    public function setDeleted(bool $deleted): self
+    {
+        $this->deleted = $deleted;
         return $this;
     }
 }

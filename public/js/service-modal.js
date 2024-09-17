@@ -67,8 +67,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 method: form.method,
                 headers: {
                     'X-Requested-With': 'XMLHttpRequest',
-                    'X-CSRF-Token': document.querySelector('meta[name="csrf-token"]').getAttribute('content')
-                }
+                    'X-CSRF-Token': document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ deleted: true })
             })
                 .then(response => response.json())
                 .then(data => {

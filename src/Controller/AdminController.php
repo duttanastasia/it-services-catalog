@@ -13,15 +13,16 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
+use Symfony\Component\HttpFoundation\File\UploadedFile;
 
 class AdminController extends AbstractController
 {
     #[Route('/admin', name: 'admin_service_list')]
     #[IsGranted('ROLE_ADMIN')]
-    public function list(ServiceRepository $serviceRepository, ServiceHelper $serviceHelper): Response
+    public function listAction(ServiceRepository $serviceRepository, ServiceHelper $serviceHelper): Response
     {
-        $services = $serviceRepository->findAll();
-        $categories = $serviceHelper->getUniqueCategories();
+        $services = $serviceRepository->findActiveServices();
+        $categories = $serviceRepository->getUniqueCategories();
 
         return $this->render('service/list.html.twig', [
             'services' => $services,
@@ -31,7 +32,7 @@ class AdminController extends AbstractController
 
     #[Route('/admin/service/new', name: 'admin_service_new')]
     #[IsGranted('ROLE_ADMIN')]
-    public function new(Request $request, EntityManagerInterface $entityManager): Response
+    public function newAction(Request $request, EntityManagerInterface $entityManager, ServiceHelper $serviceHelper): Response
     {
         $service = new Service();
         $form = $this->createForm(ServiceType::class, $service);
@@ -42,11 +43,7 @@ class AdminController extends AbstractController
             /** @var UploadedFile $logoFile */
             $logoFile = $form->get('logo')->getData();
 
-            if ($logoFile) {
-                $newFilename = uniqid() . '.' . $logoFile->guessExtension();
-                $logoFile->move($this->getParameter('uploads_directory'), $newFilename);
-                $service->setLogo($newFilename);
-            }
+            $serviceHelper->handleLogo($logoFile, $service);
 
             $entityManager->persist($service);
             $entityManager->flush();
@@ -61,7 +58,7 @@ class AdminController extends AbstractController
 
     #[Route('/admin/service/{id}/edit', name: 'admin_service_edit')]
     #[IsGranted('ROLE_ADMIN')]
-    public function edit(int $id, Request $request, ServiceRepository $serviceRepository, EntityManagerInterface $entityManager): Response
+    public function editAction(int $id, Request $request, ServiceRepository $serviceRepository, EntityManagerInterface $entityManager, ServiceHelper $serviceHelper): Response
     {
         $service = $serviceRepository->find($id);
         if (!$service) {
@@ -75,11 +72,7 @@ class AdminController extends AbstractController
             /** @var UploadedFile $logoFile */
             $logoFile = $form->get('logo')->getData();
 
-            if ($logoFile) {
-                $newFilename = uniqid() . '.' . $logoFile->guessExtension();
-                $logoFile->move($this->getParameter('uploads_directory'), $newFilename);
-                $service->setLogo($newFilename);
-            }
+            $serviceHelper->handleLogo($logoFile, $service);
 
             $entityManager->flush();
 
@@ -98,11 +91,13 @@ class AdminController extends AbstractController
 
     #[Route('/admin/service/{id}/delete', name: 'admin_service_delete')]
     #[IsGranted('ROLE_ADMIN')]
-    public function delete(int $id, ServiceRepository $serviceRepository, EntityManagerInterface $entityManager): Response
+    public function deleteAction(int $id, ServiceRepository $serviceRepository, EntityManagerInterface $entityManager): Response
     {
         $service = $serviceRepository->find($id);
-        $entityManager->remove($service);
-        $entityManager->flush();
+        if ($service) {
+            $service->setDeleted(true);
+            $entityManager->flush();
+        }
 
         return new JsonResponse(['success' => true]);
     }
