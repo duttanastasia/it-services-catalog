@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="ru" target-language="en" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="Kd99AFq" resname="login.title">
+        <source>login.title</source>
+        <target>login.title</target>
+      </trans-unit>
+      <trans-unit id="QcDI0DD" resname="login.logged_in_as">
+        <source>login.logged_in_as</source>
+        <target>login.logged_in_as</target>
+      </trans-unit>
+      <trans-unit id="slP6BBh" resname="login.logout">
+        <source>login.logout</source>
+        <target>login.logout</target>
+      </trans-unit>
+      <trans-unit id="U4Qj3wm" resname="login.sign_in">
+        <source>login.sign_in</source>
+        <target>login.sign_in</target>
+      </trans-unit>
+      <trans-unit id="g8hJY.0" resname="login.email">
+        <source>login.email</source>
+        <target>login.email</target>
+      </trans-unit>
+      <trans-unit id="guXTUCg" resname="login.password">
+        <source>login.password</source>
+        <target>login.password</target>
+      </trans-unit>
+      <trans-unit id="58FRY7d" resname="login.sign_in_button">
+        <source>login.sign_in_button</source>
+        <target>login.sign_in_button</target>
+      </trans-unit>
+      <trans-unit id="x8Gdb0w" resname="Edit Service">
+        <source>Edit Service</source>
+        <target>Edit Service</target>
+      </trans-unit>
+      <trans-unit id="FQn1YfJ" resname="Save">
+        <source>Save</source>
+        <target>Save</target>
+      </trans-unit>
+      <trans-unit id="yIz9LV5" resname="Create New Service">
+        <source>Create New Service</source>
+        <target>Create New Service</target>
+      </trans-unit>
+      <trans-unit id="HhzPD_4" resname="Service List">
+        <source>Service List</source>
+        <target>Service List</target>
+      </trans-unit>
+      <trans-unit id="bwiEBYM" resname="IT - Services and applications">
+        <source>IT - Services and applications</source>
+        <target>IT - Services and applications</target>
+      </trans-unit>
+      <trans-unit id="8ot9q1n" resname="Add New Service or application">
+        <source>Add New Service or application</source>
+        <target>Add New Service or application</target>
+      </trans-unit>
+      <trans-unit id="pSrOQg8" resname="All">
+        <source>All</source>
+        <target>All</target>
+      </trans-unit>
+      <trans-unit id="KSwG8AR" resname="Category">
+        <source>Category</source>
+        <target>Category</target>
+      </trans-unit>
+      <trans-unit id="RkxP.QG" resname="Edit">
+        <source>Edit</source>
+        <target>Edit</target>
+      </trans-unit>
+      <trans-unit id="4tClSWj" resname="Delete">
+        <source>Delete</source>
+        <target>Delete</target>
+      </trans-unit>
+      <trans-unit id="QlySftk" resname="No services found">
+        <source>No services found</source>
+        <target>No services found</target>
+      </trans-unit>
+      <trans-unit id="fZ63rLE" resname="Close">
+        <source>Close</source>
+        <target>Close</target>
+      </trans-unit>
+      <trans-unit id="E1UHiMN" resname="Confirm Deletion">
+        <source>Confirm Deletion</source>
+        <target>Confirm Deletion</target>
+      </trans-unit>
+      <trans-unit id="nP2WgCN" resname="Are you sure you want to delete this service?">
+        <source>Are you sure you want to delete this service?</source>
+        <target>Are you sure you want to delete this service?</target>
+      </trans-unit>
+      <trans-unit id="GXZu1sy" resname="Cancel">
+        <source>Cancel</source>
+        <target>Cancel</target>
+      </trans-unit>
+      <trans-unit id="3NHVIj9" resname="Name">
+        <source>Name</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit id="M7tSpzV" resname="Logo (Image file)">
+        <source>Logo (Image file)</source>
+        <target>Logo (Image file)</target>
+      </trans-unit>
+      <trans-unit id="Um4Ah8w" resname="Description">
+        <source>Description</source>
+        <target>Description</target>
+      </trans-unit>
+      <trans-unit id="flWbnbU" resname="Cloud Solutions">
+        <source>Cloud Solutions</source>
+        <target>Cloud Solutions</target>
+      </trans-unit>
+      <trans-unit id="uqQC416" resname="Collaboration Tools">
+        <source>Collaboration Tools</source>
+        <target>Collaboration Tools</target>
+      </trans-unit>
+      <trans-unit id="8PORfnr" resname="Project Management Systems">
+        <source>Project Management Systems</source>
+        <target>Project Management Systems</target>
+      </trans-unit>
+      <trans-unit id="YdKv4jS" resname="Databases">
+        <source>Databases</source>
+        <target>Databases</target>
+      </trans-unit>
+      <trans-unit id="al2EmpO" resname="Version Control Systems">
+        <source>Version Control Systems</source>
+        <target>Version Control Systems</target>
+      </trans-unit>
+      <trans-unit id="blFvyi2" resname="Operating Systems">
+        <source>Operating Systems</source>
+        <target>Operating Systems</target>
+      </trans-unit>
+      <trans-unit id="wBu_GVv" resname="Virtualization and Containerization">
+        <source>Virtualization and Containerization</source>
+        <target>Virtualization and Containerization</target>
+      </trans-unit>
+      <trans-unit id="ZOUCAtq" resname="Security Systems">
+        <source>Security Systems</source>
+        <target>Security Systems</target>
+      </trans-unit>
+      <trans-unit id="oVewuZu" resname="description.cloud_computing_google">
+        <source>description.cloud_computing_google</source>
+        <target>Cloud computing services by Google.</target>
+      </trans-unit>
+      <trans-unit id="69SNw1N" resname="description.cloud_solutions_amazon">
+        <source>description.cloud_solutions_amazon</source>
+        <target>Comprehensive cloud services from Amazon.</target>
+      </trans-unit>
+      <trans-unit id="turyVUw" resname="description.cloud_computing_microsoft">
+        <source>description.cloud_computing_microsoft</source>
+        <target>Cloud computing platform from Microsoft.</target>
+      </trans-unit>
+      <trans-unit id="sfdnhW6" resname="description.team_communication_microsoft">
+        <source>description.team_communication_microsoft</source>
+        <target>Team communication and collaboration tool by Microsoft.</target>
+      </trans-unit>
+      <trans-unit id="ITRhWHW" resname="description.communication_collaboration">
+        <source>description.communication_collaboration</source>
+        <target>Communication and collaboration platform.</target>
+      </trans-unit>
+      <trans-unit id="mpRjrxz" resname="description.video_conferencing">
+        <source>description.video_conferencing</source>
+        <target>Video conferencing and collaboration solution.</target>
+      </trans-unit>
+      <trans-unit id="SAozXks" resname="description.project_management_atlassian">
+        <source>description.project_management_atlassian</source>
+        <target>Project management tool by Atlassian.</target>
+      </trans-unit>
+      <trans-unit id="fA0.TLL" resname="description.task_project_management">
+        <source>description.task_project_management</source>
+        <target>Task and project management tool.</target>
+      </trans-unit>
+      <trans-unit id="Tlgp9N7" resname="description.project_task_management">
+        <source>description.project_task_management</source>
+        <target>Tool for managing projects and tasks.</target>
+      </trans-unit>
+      <trans-unit id="H0Ku_h7" resname="description.object_relational_database">
+        <source>description.object_relational_database</source>
+        <target>Object-relational database system.</target>
+      </trans-unit>
+      <trans-unit id="ARTbJuk" resname="description.open_source_database">
+        <source>description.open_source_database</source>
+        <target>Open-source database management system.</target>
+      </trans-unit>
+      <trans-unit id="VNLQNSK" resname="description.document_oriented_database">
+        <source>description.document_oriented_database</source>
+        <target>Document-oriented NoSQL database.</target>
+      </trans-unit>
+      <trans-unit id="66VPS2l" resname="description.code_hosting_version_control">
+        <source>description.code_hosting_version_control</source>
+        <target>Code hosting and version control system.</target>
+      </trans-unit>
+      <trans-unit id=".da3I2C" resname="description.devops_repository_management">
+        <source>description.devops_repository_management</source>
+        <target>DevOps and repository management platform.</target>
+      </trans-unit>
+      <trans-unit id="smYh9V4" resname="description.repository_management_cicd">
+        <source>description.repository_management_cicd</source>
+        <target>Repository management with CI/CD support.</target>
+      </trans-unit>
+      <trans-unit id="SZCMyQz" resname="description.popular_linux_distribution">
+        <source>description.popular_linux_distribution</source>
+        <target>Popular Linux distribution.</target>
+      </trans-unit>
+      <trans-unit id="4G1TXyR" resname="description.community_version_rhel">
+        <source>description.community_version_rhel</source>
+        <target>Community version of Red Hat Enterprise Linux (RHEL).</target>
+      </trans-unit>
+      <trans-unit id="zZv4mMw" resname="description.server_os_microsoft">
+        <source>description.server_os_microsoft</source>
+        <target>Server operating system by Microsoft.</target>
+      </trans-unit>
+      <trans-unit id="N99BBaH" resname="description.containerizing_applications">
+        <source>description.containerizing_applications</source>
+        <target>Platform for containerizing applications.</target>
+      </trans-unit>
+      <trans-unit id="fLHX6ZT" resname="description.container_orchestration">
+        <source>description.container_orchestration</source>
+        <target>Container orchestration platform.</target>
+      </trans-unit>
+      <trans-unit id="567l6qF" resname="description.virtualization_cloud_solutions">
+        <source>description.virtualization_cloud_solutions</source>
+        <target>Virtualization and cloud infrastructure solution.</target>
+      </trans-unit>
+      <trans-unit id="joJj4oe" resname="description.it_infrastructure_management">
+        <source>description.it_infrastructure_management</source>
+        <target>IT infrastructure management system.</target>
+      </trans-unit>
+      <trans-unit id="KDUbU7B" resname="description.data_analysis_monitoring">
+        <source>description.data_analysis_monitoring</source>
+        <target>Data analysis and monitoring platform.</target>
+      </trans-unit>
+      <trans-unit id=".XV9xRX" resname="description.network_data_security">
+        <source>description.network_data_security</source>
+        <target>Network and data security solutions.</target>
+      </trans-unit>
+      <trans-unit id="KQJDUmp" resname="category.cloud_solutions">
+        <source>category.cloud_solutions</source>
+        <target>Cloud Solutions</target>
+      </trans-unit>
+      <trans-unit id="Cmx6bO8" resname="category.collaboration_tools">
+        <source>category.collaboration_tools</source>
+        <target>Collaboration Tools</target>
+      </trans-unit>
+      <trans-unit id="LzVl7AL" resname="category.project_management">
+        <source>category.project_management</source>
+        <target>Project Management Systems</target>
+      </trans-unit>
+      <trans-unit id="o.nAbQl" resname="category.databases">
+        <source>category.databases</source>
+        <target>Databases</target>
+      </trans-unit>
+      <trans-unit id="wJ5qKcv" resname="category.version_control">
+        <source>category.version_control</source>
+        <target>Version Control Systems</target>
+      </trans-unit>
+      <trans-unit id="Hy4louF" resname="category.operating_systems">
+        <source>category.operating_systems</source>
+        <target>Operating Systems</target>
+      </trans-unit>
+      <trans-unit id=".LHNgcv" resname="category.virtualization">
+        <source>category.virtualization</source>
+        <target>Virtualization and Containerization</target>
+      </trans-unit>
+      <trans-unit id="sXPBkTK" resname="category.security">
+        <source>category.security</source>
+        <target>Security Systems</target>
+      </trans-unit>
+      <trans-unit id="0MEYS3l" resname="Search services...">
+        <source>Search services...</source>
+        <target>Search services...</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

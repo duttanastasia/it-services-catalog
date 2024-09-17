@@ -1,3 +1,23 @@
 controllers:
     resource: ../src/Controller/
     type: attribute
+
+app_service_list:
+    path: /
+    controller: App\Controller\ServiceController::list
+
+admin_service_list:
+    path: /admin
+    controller: App\Controller\AdminController::list
+
+admin_service_new:
+    path: /admin/service/new
+    controller: App\Controller\AdminController::new
+
+admin_service_edit:
+    path: /admin/service/{id}/edit
+    controller: App\Controller\AdminController::edit
+
+admin_service_delete:
+    path: /admin/service/{id}/delete
+    controller: App\Controller\AdminController::delete

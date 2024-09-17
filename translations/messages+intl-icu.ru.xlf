@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="ru" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="Kd99AFq" resname="login.title">
+        <source>login.title</source>
+        <target>Вход</target>
+      </trans-unit>
+      <trans-unit id="QcDI0DD" resname="login.logged_in_as">
+        <source>login.logged_in_as</source>
+        <target>Вы вошли как</target>
+      </trans-unit>
+      <trans-unit id="slP6BBh" resname="login.logout">
+        <source>login.logout</source>
+        <target>Выйти</target>
+      </trans-unit>
+      <trans-unit id="U4Qj3wm" resname="login.sign_in">
+        <source>login.sign_in</source>
+        <target>Войти</target>
+      </trans-unit>
+      <trans-unit id="g8hJY.0" resname="login.email">
+        <source>login.email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="guXTUCg" resname="login.password">
+        <source>login.password</source>
+        <target>Пароль</target>
+      </trans-unit>
+      <trans-unit id="58FRY7d" resname="login.sign_in_button">
+        <source>login.sign_in_button</source>
+        <target>Войти</target>
+      </trans-unit>
+      <trans-unit id="x8Gdb0w" resname="Edit Service">
+        <source>Edit Service</source>
+        <target>Редактировать сервис</target>
+      </trans-unit>
+      <trans-unit id="FQn1YfJ" resname="Save">
+        <source>Save</source>
+        <target>Сохранить</target>
+      </trans-unit>
+      <trans-unit id="yIz9LV5" resname="Create New Service">
+        <source>Create New Service</source>
+        <target>Создать новый сервис</target>
+      </trans-unit>
+      <trans-unit id="HhzPD_4" resname="Service List">
+        <source>Service List</source>
+        <target>Список сервисов</target>
+      </trans-unit>
+      <trans-unit id="bwiEBYM" resname="IT - Services and applications">
+        <source>IT - Services and applications</source>
+        <target>IT - Сервисы и приложения</target>
+      </trans-unit>
+      <trans-unit id="8ot9q1n" resname="Add New Service or application">
+        <source>Add New Service or application</source>
+        <target>Добавить новый сервис или приложение</target>
+      </trans-unit>
+      <trans-unit id="pSrOQg8" resname="All">
+        <source>All</source>
+        <target>Все</target>
+      </trans-unit>
+      <trans-unit id="KSwG8AR" resname="Category">
+        <source>Category</source>
+        <target>Категория</target>
+      </trans-unit>
+      <trans-unit id="RkxP.QG" resname="Edit">
+        <source>Edit</source>
+        <target>Редактировать</target>
+      </trans-unit>
+      <trans-unit id="4tClSWj" resname="Delete">
+        <source>Delete</source>
+        <target>Удалить</target>
+      </trans-unit>
+      <trans-unit id="QlySftk" resname="No services found">
+        <source>No services found</source>
+        <target>Сервисы не найдены</target>
+      </trans-unit>
+      <trans-unit id="fZ63rLE" resname="Close">
+        <source>Close</source>
+        <target>Закрыть</target>
+      </trans-unit>
+      <trans-unit id="E1UHiMN" resname="Confirm Deletion">
+        <source>Confirm Deletion</source>
+        <target>Подтвердите удаление</target>
+      </trans-unit>
+      <trans-unit id="nP2WgCN" resname="Are you sure you want to delete this service?">
+        <source>Are you sure you want to delete this service?</source>
+        <target>Вы уверены, что хотите удалить этот сервис?</target>
+      </trans-unit>
+      <trans-unit id="GXZu1sy" resname="Cancel">
+        <source>Cancel</source>
+        <target>Отмена</target>
+      </trans-unit>
+      <trans-unit id="3NHVIj9" resname="Name">
+        <source>Name</source>
+        <target>Название</target>
+      </trans-unit>
+      <trans-unit id="M7tSpzV" resname="Logo (Image file)">
+        <source>Logo (Image file)</source>
+        <target>Логотип (изображение)</target>
+      </trans-unit>
+      <trans-unit id="Um4Ah8w" resname="Description">
+        <source>Description</source>
+        <target>Описание</target>
+      </trans-unit>
+        <trans-unit id="flWbnbU" resname="Cloud Solutions">
+            <source>Cloud Solutions</source>
+            <target>Облачные службы</target>
+        </trans-unit>
+        <trans-unit id="uqQC416" resname="Collaboration Tools">
+            <source>Collaboration Tools</source>
+            <target>Инструменты для совместной работы</target>
+        </trans-unit>
+        <trans-unit id="8PORfnr" resname="Project Management Systems">
+            <source>Project Management Systems</source>
+            <target>Системы управления проектами</target>
+        </trans-unit>
+        <trans-unit id="YdKv4jS" resname="Databases">
+            <source>Databases</source>
+            <target>Базы данных</target>
+        </trans-unit>
+        <trans-unit id="al2EmpO" resname="Version Control Systems">
+            <source>Version Control Systems</source>
+            <target>Системы контроля версий</target>
+        </trans-unit>
+        <trans-unit id="blFvyi2" resname="Operating Systems">
+            <source>Operating Systems</source>
+            <target>Операционные системы</target>
+        </trans-unit>
+        <trans-unit id="wBu_GVv" resname="Virtualization and Containerization">
+            <source>Virtualization and Containerization</source>
+            <target>Виртуализация и контейнеризация</target>
+        </trans-unit>
+        <trans-unit id="ZOUCAtq" resname="Security Systems">
+            <source>Security Systems</source>
+            <target>Системы безопасности</target>
+        </trans-unit>
+        <trans-unit id="description.cloud_computing_google">
+            <source>description.cloud_computing_google</source>
+            <target>Облачные вычисления от Google.</target>
+        </trans-unit>
+        <trans-unit id="description.cloud_solutions_amazon">
+            <source>description.cloud_solutions_amazon</source>
+            <target>Обширные облачные решения от Amazon.</target>
+        </trans-unit>
+        <trans-unit id="description.cloud_computing_microsoft">
+            <source>description.cloud_computing_microsoft</source>
+            <target>Облачная платформа от Microsoft.</target>
+        </trans-unit>
+        <trans-unit id="description.team_communication_microsoft">
+            <source>description.team_communication_microsoft</source>
+            <target>Инструмент для командной работы и общения от Microsoft.</target>
+        </trans-unit>
+        <trans-unit id="description.communication_collaboration">
+            <source>description.communication_collaboration</source>
+            <target>Платформа для общения и совместной работы.</target>
+        </trans-unit>
+        <trans-unit id="description.video_conferencing">
+            <source>description.video_conferencing</source>
+            <target>Решение для видеоконференций и совместной работы.</target>
+        </trans-unit>
+        <trans-unit id="description.project_management_atlassian">
+            <source>description.project_management_atlassian</source>
+            <target>Инструмент управления проектами от Atlassian.</target>
+        </trans-unit>
+        <trans-unit id="description.task_project_management">
+            <source>description.task_project_management</source>
+            <target>Инструмент для управления задачами и проектами.</target>
+        </trans-unit>
+        <trans-unit id="description.project_task_management">
+            <source>description.project_task_management</source>
+            <target>Инструмент для управления проектами и задачами.</target>
+        </trans-unit>
+        <trans-unit id="description.object_relational_database">
+            <source>description.object_relational_database</source>
+            <target>Объектно-реляционная система управления базами данных.</target>
+        </trans-unit>
+        <trans-unit id="description.open_source_database">
+            <source>description.open_source_database</source>
+            <target>Система управления базами данных с открытым исходным кодом.</target>
+        </trans-unit>
+        <trans-unit id="description.document_oriented_database">
+            <source>description.document_oriented_database</source>
+            <target>Документо-ориентированная NoSQL база данных.</target>
+        </trans-unit>
+        <trans-unit id="description.code_hosting_version_control">
+            <source>description.code_hosting_version_control</source>
+            <target>Хостинг кода и система контроля версий.</target>
+        </trans-unit>
+        <trans-unit id="description.devops_repository_management">
+            <source>description.devops_repository_management</source>
+            <target>Платформа для DevOps и управления репозиториями.</target>
+        </trans-unit>
+        <trans-unit id="description.repository_management_cicd">
+            <source>description.repository_management_cicd</source>
+            <target>Управление репозиториями с поддержкой CI/CD.</target>
+        </trans-unit>
+        <trans-unit id="description.popular_linux_distribution">
+            <source>description.popular_linux_distribution</source>
+            <target>Популярный дистрибутив Linux.</target>
+        </trans-unit>
+        <trans-unit id="description.community_version_rhel">
+            <source>description.community_version_rhel</source>
+            <target>Сообщественная версия Red Hat Enterprise Linux (RHEL).</target>
+        </trans-unit>
+        <trans-unit id="description.server_os_microsoft">
+            <source>description.server_os_microsoft</source>
+            <target>Серверная операционная система от Microsoft.</target>
+        </trans-unit>
+        <trans-unit id="description.containerizing_applications">
+            <source>description.containerizing_applications</source>
+            <target>Платформа для контейнеризации приложений.</target>
+        </trans-unit>
+        <trans-unit id="description.container_orchestration">
+            <source>description.container_orchestration</source>
+            <target>Платформа для оркестрации контейнеров.</target>
+        </trans-unit>
+        <trans-unit id="description.virtualization_cloud_solutions">
+            <source>description.virtualization_cloud_solutions</source>
+            <target>Решения для виртуализации и облачной инфраструктуры.</target>
+        </trans-unit>
+        <trans-unit id="description.it_infrastructure_management">
+            <source>description.it_infrastructure_management</source>
+            <target>Система управления IT-инфраструктурой.</target>
+        </trans-unit>
+        <trans-unit id="description.data_analysis_monitoring">
+            <source>description.data_analysis_monitoring</source>
+            <target>Платформа для анализа данных и мониторинга.</target>
+        </trans-unit>
+        <trans-unit id="description.network_data_security">
+            <source>description.network_data_security</source>
+            <target>Решения для безопасности сети и данных.</target>
+        </trans-unit>
+        <trans-unit id="category.cloud_solutions">
+            <source>category.cloud_solutions</source>
+            <target>Облачные службы</target>
+        </trans-unit>
+        <trans-unit id="category.collaboration_tools">
+            <source>category.collaboration_tools</source>
+            <target>Инструменты для совместной работы</target>
+        </trans-unit>
+        <trans-unit id="category.project_management">
+            <source>category.project_management</source>
+            <target>Системы управления проектами</target>
+        </trans-unit>
+        <trans-unit id="category.databases">
+            <source>category.databases</source>
+            <target>Базы данных</target>
+        </trans-unit>
+        <trans-unit id="category.version_control">
+            <source>category.version_control</source>
+            <target>Системы контроля версий</target>
+        </trans-unit>
+        <trans-unit id="category.operating_systems">
+            <source>category.operating_systems</source>
+            <target>Операционные системы</target>
+        </trans-unit>
+        <trans-unit id="category.virtualization">
+            <source>category.virtualization</source>
+            <target>Виртуализация и контейнеризация</target>
+        </trans-unit>
+        <trans-unit id="category.security">
+            <source>category.security</source>
+            <target>Системы безопасности</target>
+        </trans-unit>
+      <trans-unit id="0MEYS3l" resname="Search services...">
+        <source>Search services...</source>
+        <target>Поиск...</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

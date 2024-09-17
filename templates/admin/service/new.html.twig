@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ 'Create New Service'|trans }}{% endblock %}
+
+{% block body %}
+    <span class="head-text">{{ 'Create New Service'|trans }}</span>
+
+    {{ form_start(form, {'attr': {'id': 'serviceForm', 'data-action': path('admin_service_new')}}) }}
+    {{ form_widget(form) }}
+    <button type="submit" class="btn btn-save">{{ 'Save'|trans }}</button>
+    {{ form_end(form) }}
+{% endblock %}

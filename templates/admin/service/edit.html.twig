@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <span class="head-text">{{ 'Edit Service'|trans }}</span>
+    {{ form_start(form) }}
+    {{ form_row(form.name) }}
+    {{ form_row(form.logo) }}
+    {{ form_row(form.description) }}
+    {{ form_row(form.category) }}
+    <button type="submit" class="btn btn-save">{{ 'Save'|trans }}</button>
+    {{ form_end(form) }}
+{% endblock %}
+

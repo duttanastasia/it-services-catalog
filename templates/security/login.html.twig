@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ 'login.title'|trans }}{% endblock %}
+
+{% block body %}
+    <div class="login-wrapper">
+        <div class="login-container">
+            <form method="post" class="login-form">
+                {% if error %}
+                    <div class="alert alert-danger">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
+                {% endif %}
+
+                {% if app.user %}
+                    <div class="mb-3">
+                        {{ 'login.logged_in_as'|trans({'%username%': app.user.userIdentifier}) }}, <a href="{{ path('app_logout') }}">{{ 'login.logout'|trans }}</a>
+                    </div>
+                {% endif %}
+
+                <h1 class="head-login mb-4">{{ 'login.sign_in'|trans }}</h1>
+                <div class="form-group">
+                    <label for="inputEmail">{{ 'login.email'|trans }}</label>
+                    <input type="email" value="{{ last_username }}" name="email" id="inputEmail" class="form-control" autocomplete="email" required autofocus>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword">{{ 'login.password'|trans }}</label>
+                    <input type="password" name="password" id="inputPassword" class="form-control" autocomplete="current-password" required>
+                </div>
+
+                <input type="hidden" name="_csrf_token" value="{{ csrf_token('authenticate') }}">
+
+                <button class="btn btn-primary btn-block" type="submit">{{ 'login.sign_in_button'|trans }}</button>
+            </form>
+        </div>
+    </div>
+{% endblock %}
